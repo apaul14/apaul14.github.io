@@ -1,25 +1,49 @@
 body {
   background: black;
   background-image: url("../public/04880001.JPG");
+  background-size: cover;
   height:100vh;
-  max-width: 100%;
-  display:flex;
+  /* max-width: 100%;   */
+  background-repeat: no-repeat;
+  background-position: center; 
+  /* display:flex; */
 }
 
 .topnav {
-  flex: auto;
+  /* flex: auto;  
+  display: flex;
+  justify-content: flex-end; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .topnav a {
+  /* display: flex; */
   display: block;
-  float: left;
+  float: right;
+  /* flex: auto; */
   color: #f2f2f2;
-  text-align: center;
+  /* text-align: center; */
   padding: 14px 16px;
   text-decoration: none;
   font-size: 2.4rem;
 }
 
 .topnav a:hover {
-  color: green
+  color: rgba(88, 238, 200, 0.623)
+}
+
+#logo {
+  float: left;
+  /* color:rgba(223, 252, 245, 0.925) */
+  color:rgb(220, 230, 229)
+}
+
+footer {
+  color: white;
+  text-align: center;
+  bottom: 0
+  
 }
