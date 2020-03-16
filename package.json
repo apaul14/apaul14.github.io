@@ -1,0 +1,20 @@
+{
+  "name": "ceramics-site",
+  "version": "1.0.0",
+  "description": "Ceramics Web Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apaul14/ceramics-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apaul14/ceramics-site/issues"
+  },
+  "homepage": "https://github.com/apaul14/ceramics-site#readme"
+}
