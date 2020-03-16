@@ -1,6 +1,18 @@
 body {
   background-image: url("../public/04880001.JPG");
   height: 1024px;
-  /* border: 8px solid rgb(29, 30, 31);
-  margin: rgb(29, 30, 31); */
+  display: flex;
+}
+
+.topnav {
+  flex: auto;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
