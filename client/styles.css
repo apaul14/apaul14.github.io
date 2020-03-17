@@ -41,9 +41,6 @@ body {
   animation-delay: 1.6s;
 }
 
-
-
-
 .topnav a:hover {
   color: rgba(88, 238, 200, 0.623)
 }
@@ -52,7 +49,6 @@ body {
   float: left;
   /* color:rgba(223, 252, 245, 0.925) */
   color:rgb(220, 230, 229);
-  animation:fadeIn ease-in 1;
 }
 
 footer {
