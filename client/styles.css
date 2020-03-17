@@ -3,45 +3,46 @@ body {
   background-image: url("../public/04880001.JPG");
   background-size: cover;
   height:100vh;
-  /* max-width: 100%;   */
   background-repeat: no-repeat;
   background-position: center; 
-  /* display:flex; */
-  animation: fadeInAnimation ease 4s; 
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
 }
 
-@keyframes fadeInAnimation { 
-  0% { 
-      opacity: 0; 
-  } 
-  100% { 
-      opacity: 1; 
-   } 
-} 
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .topnav {
-  /* flex: auto;  
-  display: flex;
-  justify-content: flex-end; */
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  opacity:0;  
+	animation:fadeIn ease-in 1;
+	animation-fill-mode:forwards;
+	animation-duration:1s;
 }
 
 .topnav a {
-  /* display: flex; */
   display: block;
   float: right;
-  /* flex: auto; */
   color: #f2f2f2;
-  /* text-align: center; */
   padding: 14px 16px;
   text-decoration: none;
   font-size: 2.4rem;
 }
+
+.topnav.i02 {
+  animation-delay: 0.7s;
+}
+  
+.topnav.i03 {
+  animation-delay: 1.2s;
+}
+  
+.topnav.i04 {
+  animation-delay: 1.6s;
+}
+
+
+
 
 .topnav a:hover {
   color: rgba(88, 238, 200, 0.623)
@@ -50,7 +51,8 @@ body {
 #logo {
   float: left;
   /* color:rgba(223, 252, 245, 0.925) */
-  color:rgb(220, 230, 229)
+  color:rgb(220, 230, 229);
+  animation:fadeIn ease-in 1;
 }
 
 footer {
