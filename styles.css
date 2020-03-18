@@ -97,15 +97,18 @@ a {
   display: block;
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
+  color: rgba(88, 238, 200, 0.623);
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
+  color: black;
 }
 
 .header .logo {
+  color:rgb(220, 230, 229);
   display: block;
   float: left;
   font-size: 2em;
@@ -143,7 +146,7 @@ a {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: rgba(88, 238, 200, 0.623);
   content: '';
   display: block;
   height: 100%;
